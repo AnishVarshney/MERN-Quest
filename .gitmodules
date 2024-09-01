@@ -1,0 +1,12 @@
+[submodule "client_ui"]
+	path = client_ui
+	url = https://github.com/AnishVarshney/MERN-Quest.git
+	branch = main
+[submodule "api"]
+	path = api
+	url = https://github.com/AnishVarshney/MERN-Quest.git
+	branch = api-routes
+[submodule "admin"]
+	path = admin
+	url = https://github.com/AnishVarshney/ReactCraft.git
+	branch = admin
