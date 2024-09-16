@@ -1,7 +1,8 @@
-# 🎨 VogueVault - Frontend (Design) Branch
+# VogueVault - Frontend (Design) Branch
+### For Frontent part only -> visit comit : "Craft mobile-first design" on main branch only.
 
 ## 🚀 Overview
-VogueVault is a highly polished, responsive eCommerce platform designed to offer users a seamless and aesthetically pleasing shopping experience. This frontend branch highlights my expertise in creating user-centric designs using **ReactJS**, with a focus on UI/UX best practices. This project showcases advanced design techniques and aims to demonstrate my proficiency in web development and design technologies, targeting recruiters and interviewers for potential internship or job opportunities.
+VogueVault is a highly polished, responsive eCommerce platform crafted to deliver a seamless and visually engaging shopping experience. This frontend branch underscores my expertise in ReactJS and modern design methodologies, focusing on creating user-centric, performance-optimized interfaces. The project showcases advanced UI/UX principles, emphasizing styled components and Material UI to ensure scalable, maintainable, and aesthetically superior web designs. With a strong foundation in web technologies, VogueVault demonstrates proficiency in building intuitive, flexible, and responsive frontends that enhance user engagement and interaction.
 
 The design focuses on building a high-performance, visually appealing user interface, including a responsive layout, stylish components, and an intuitive navigation system.
 
