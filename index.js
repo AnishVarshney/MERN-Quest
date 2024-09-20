@@ -25,6 +25,13 @@ mongoose
 //     console.log("Test is successful !");
 // }); instead 
 
+const allowedOrigins = ['https://voguevault.netlify.app/']; 
+
+app.use(cors({
+  origin: allowedOrigins,
+  credentials: true, // Enable this if you are using cookies or sessions
+}));
+
 app.use(cors());
 app.use(express.json());
 app.use("/api/auth", authRoute);
