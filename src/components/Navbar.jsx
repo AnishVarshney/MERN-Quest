@@ -68,6 +68,11 @@ const MenuItem = styled.div`
   ${mobile({ fontSize: "12px", marginLeft: "10px" })}
 `;
 
+const StyledLink = styled(Link)`   
+  text-decoration: none;  
+  color: inherit;
+`;
+
 const Navbar = () => {
   const quantity = useSelector(state=>state.cart.quantity)
   // console.log(cart);
@@ -86,22 +91,22 @@ const Navbar = () => {
           <Logo>SHYAM.</Logo>
         </Center>
         <Right>
-          
-          <Link to="/cart">
+
+          <StyledLink to="/register">
           <MenuItem>REGISTER</MenuItem>
-          </Link>
+          </StyledLink>
 
-          <Link to = "/login">
+          <StyledLink to = "/login">
           <MenuItem>SIGN IN</MenuItem>
-          </Link>
+          </StyledLink>
 
-          <Link to="/cart">
+          <StyledLink to="/cart">
           <MenuItem>
             <Badge badgeContent={quantity} color="primary">
               <ShoppingCartOutlined />
             </Badge>
           </MenuItem>
-          </Link>
+          </StyledLink>
         </Right>
       </Wrapper>
     </Container>
