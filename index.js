@@ -25,7 +25,7 @@ mongoose
 //     console.log("Test is successful !");
 // }); instead 
 
-const allowedOrigins = ['https://voguevault.netlify.app/']; 
+const allowedOrigins = ['https://voguevault.netlify.app']; 
 
 app.use(cors({
   origin: allowedOrigins,
@@ -33,7 +33,7 @@ app.use(cors({
 }));
 
 app.use((req, res, next) => {
-  res.header("Access-Control-Allow-Origin", "https://voguevault.netlify.app/"); // Allow requests from your Netlify frontend
+  res.header("Access-Control-Allow-Origin", "https://voguevault.netlify.app"); // Allow requests from your Netlify frontend
   res.header("Access-Control-Allow-Credentials", "true");
   res.header(
     "Access-Control-Allow-Headers",
