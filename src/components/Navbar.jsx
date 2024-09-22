@@ -88,7 +88,7 @@ const Navbar = () => {
           </SearchContainer>
         </Left>
         <Center>
-          <Logo>SHYAM.</Logo>
+          <Logo>Voguevault.</Logo>
         </Center>
         <Right>
 
