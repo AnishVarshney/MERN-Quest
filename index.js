@@ -32,7 +32,7 @@ app.use(cors({
   credentials: true, // Enable this if you are using cookies or sessions
 }));
 
-app.use(cors());
+// app.use(cors());
 app.use(express.json());
 app.use("/api/auth", authRoute);
 app.use("/api/users", userRoute);
