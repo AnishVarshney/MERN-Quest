@@ -32,6 +32,20 @@ app.use(cors({
   credentials: true, // Enable this if you are using cookies or sessions
 }));
 
+app.use((req, res, next) => {
+  res.header("Access-Control-Allow-Origin", "https://voguevault.netlify.app/"); // Allow requests from your Netlify frontend
+  res.header("Access-Control-Allow-Credentials", "true");
+  res.header(
+    "Access-Control-Allow-Headers",
+    "Origin, X-Requested-With, Content-Type, Accept, Authorization"
+  );
+  if (req.method === "OPTIONS") {
+    res.header("Access-Control-Allow-Methods", "PUT, POST, PATCH, DELETE, GET");
+    return res.status(200).json({});
+  }
+  next();
+});
+
 // app.use(cors());
 app.use(express.json());
 app.use("/api/auth", authRoute);
