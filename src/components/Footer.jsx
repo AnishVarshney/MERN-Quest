@@ -144,13 +144,13 @@ const Footer = () => {
       <Right>
         <Title>Contact</Title>
         <ContactItem>
-          <Room style={{ marginRight: "10px" }} /> Shyam Agency, College Road Atrauli Aligarh
+          <Room style={{ marginRight: "10px" }} /> Voguevault Agency, Aligarh
         </ContactItem>
         <ContactItem>
           <Phone style={{ marginRight: "10px" }} /> +91 95486 93900
         </ContactItem>
         <ContactItem>
-          <MailOutline style={{ marginRight: "10px" }} /> shyamagency@gmail.com
+          <MailOutline style={{ marginRight: "10px" }} /> voguevault@gmail.com
         </ContactItem>
         <Payment src="https://i.ibb.co/Qfvn4z6/payment.png" />
       </Right>
